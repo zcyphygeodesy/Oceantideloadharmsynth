@@ -33,7 +33,7 @@ https://www.zcyphygeodesy.com/en/h-nd-116.html
     Return parameters: cnm,snm - the direct influence of ocean tidal load to geopotential coefficient variations.
 ## (4) Algorithm module for normalized associative Legendre functions and their derivatives
     BelPnmdt(pnm,dpt1,dpt2,maxn,t)
-    Improved Belikov recursion algorithm for mnm and non-singular recursive algorithm for derivative of pnm.
+    Improved Belikov recursion algorithm for pnm and non-singular recursive algorithm for derivative of pnm.
 ## (5) Algorithm module for the nodal corrections of the tidal constituent
     CalcTidefu(mjd,doodson,df,du)
     Input parameters: doodson(6) - Doodson constants of the tidal constituent.
