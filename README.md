@@ -59,5 +59,4 @@ https://www.zcyphygeodesy.com/en/h-nd-116.html
     8.4.1 Construction of tidal load spherical harmonic coefficient model
     8.2.2 The normalized spherical harmonic series expansion for surface load deformation field
     8.2.3 The normalized associated Legendre functions and thier derivatives
-
-DOS executable test file, geophysical models and all input and output data.
+The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file, geophysical models and all input and output data.
