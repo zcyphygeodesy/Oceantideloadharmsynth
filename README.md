@@ -3,6 +3,7 @@ https://www.zcyphygeodesy.com/en/h-nd-116.html
 ## [Algorithm purpose]
     Using the global ocean tidal load spherical harmonic coefficient model (cm), and given the longitude, latitude, orthometric height and forecast time of the calculation point, predict the sea surface tidal height (cm) and compute the ocean tidal load effects on the geoid or height anomaly (mm), ground gravity (μGal), gravity disturbance (μGal), ground tilt (SW, to the south and to the west, mas), vertical deflection (SW, to the south and to the west, mas), horizontal displacement (EN, to the east and to the north, mm), ground radial displacement (mm), ground normal or orthometric height (mm), radial gravity gradient (10μE) or horizontal gravity gradient (NW, to the north and to the west, 10μE).
     Expand and improve the ocean tidal load effect algorithm in the IERS conventions (2010) to adapt to all-element geodetic variations in the whole Earth space.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgsrbQuQYo4LKTTjCWDji6CQ.jpg)
 ## [Computation Output]
     tdh: the sea surface tidal height (cm). tdn(14): ocean tidal load effects on all-element geodetic variations.
     tdn(1:14) stores the ocean tidal load effects on 10 kinds of geodetic variations, which are the ocean tidal load effects on height anomaly tdn(1) (mm), ground gravity #tdn(2) (μGal), gravity disturbance tdn(3) (μGal), ground tilt #tdn(4:5) (SW, to the south and to the west, mas), vertical deflection tdn(6:7) (SW, to the south and to the west, mas), horizontal displacement #tdn(8:9) (EN, to the east and to the north, mm), ground radial displacement #tdn(10) (mm), ground normal or orthometric height #tdn(11) (mm), radial gravity gradient tdn(12 )(10μE) or horizontal gravity gradient tdn(13:14) (NW, to the north and to the west, 10μE).
@@ -60,3 +61,5 @@ https://www.zcyphygeodesy.com/en/h-nd-116.html
     8.2.2 The normalized spherical harmonic series expansion for surface load deformation field
     8.2.3 The normalized associated Legendre functions and thier derivatives
 The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file, geophysical models and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgsrbQuQYopIaw9QQwlg44ugk.jpg)
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgs7bQuQYonJOz9QMwlg44ugk.jpg)
