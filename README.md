@@ -1,8 +1,8 @@
 ## Fortran codes for spherical harmonic synthesis of ocean tidal load effects on all-element geodetic variations
 https://www.zcyphygeodesy.com/en/h-nd-116.html
 ## [Algorithm purpose]
-    Using the global ocean tidal load spherical harmonic coefficient model (cm), and given the longitude, latitude, orthometric height and forecast time of the calculation point, predict the sea surface tidal height (cm) and compute the ocean tidal load effects on the geoid or height anomaly (mm), ground gravity (μGal), gravity disturbance (μGal), ground tilt (SW, to the south and to the west, mas), vertical deflection (SW, to the south and to the west, mas), horizontal displacement (EN, to the east and to the north, mm), ground radial displacement (mm), ground normal or orthometric height (mm), radial gravity gradient (10μE) or horizontal gravity gradient (NW, to the north and to the west, 10μE).
-    Expand and improve the ocean tidal load effect algorithm in the IERS conventions (2010) to adapt to all-element geodetic variations in the whole Earth space.
+&emsp;```Using the global ocean tidal load spherical harmonic coefficient model (cm), and given the longitude, latitude, orthometric height and forecast time of the calculation point, predict the sea surface tidal height (cm) and compute the ocean tidal load effects on the geoid or height anomaly (mm), ground gravity (μGal), gravity disturbance (μGal), ground tilt (SW, to the south and to the west, mas), vertical deflection (SW, to the south and to the west, mas), horizontal displacement (EN, to the east and to the north, mm), ground radial displacement (mm), ground normal or orthometric height (mm), radial gravity gradient (10μE) or horizontal gravity gradient (NW, to the north and to the west, 10μE).```  
+&emsp;```Expand and improve the ocean tidal load effect algorithm in the IERS conventions (2010) to adapt to all-element geodetic variations in the whole Earth space.```
 ![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgsrbQuQYo4LKTTjCWDji6CQ.jpg)
 ## [Computation Output]
     tdh: the sea surface tidal height (cm). tdn(14): ocean tidal load effects on all-element geodetic variations.
